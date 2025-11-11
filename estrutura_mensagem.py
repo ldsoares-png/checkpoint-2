@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+from datetime import datetime
 class MensagemBase(ABC):
     def __init__(self, mensagem: str):
         self._mensagem = mensagem
